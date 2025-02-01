@@ -1,0 +1,844 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Styling Navbar */
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  opacity: 0.7;
+  background-color: black;
+  border-bottom: 5px solid rgb(30, 148, 168);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+header {
+  height: 80vh;
+  width: 100%;
+  background: url("https://awesome-spence-10ee89.netlify.app/Img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: fixed; */
+  /* z-index: -2; */
+  /* opacity: 0.7; */
+}
+
+#class-links ul li i {
+  padding: 5px;
+  color: white;
+}
+
+#class-links ul {
+  display: flex;
+  gap: 3px;
+}
+/* In Navbar creating a dropdown */
+.sub-menu-l {
+  display: none;
+}
+
+#class-links ul li:hover .sub-menu-l {
+  display: block;
+  position: absolute;
+  background: rgb(30, 148, 168);
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+#class-links ul li:hover .sub-menu-l ul {
+  display: block;
+  margin: 10px;
+}
+
+#class-links ul li:hover .sub-menu-l ul li {
+  width: 150px;
+  padding: 8px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+}
+
+#class-links ul li {
+  list-style: none;
+  margin: 6px;
+  padding: 10px 5px;
+}
+
+#class-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.list{
+  background: transparent;
+  color: white;
+}
+.active
+{
+  background: rgb(30, 148, 168);
+  border-radius: 3px;
+}
+
+.active,
+#class-links ul li:hover {
+  background: rgb(30, 148, 168);
+  border-radius: 3px;
+}
+
+/* Sign in and login forms */
+.sign,
+.login {
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login {
+  margin-right: 1rem;
+}
+
+.sign:hover,
+.login:hover {
+  color: white;
+  background-color: rgb(30, 148, 168);
+}
+
+#class-links ul li a:hover {
+  text-decoration: underline;
+}
+
+#class-links {
+  display: flex;
+}
+#datashow{
+  display: flex;
+
+}
+.classlinks-2{
+  z-index: 100;
+  /* display: flex; */
+  height: 80vh;
+  width: 20%;
+  background-color: black;
+  opacity: 0.8;
+  visibility: hidden;
+  color: wheat;
+}
+.classlinks-2 ul li a{
+  color: white;
+  text-decoration: none;
+}
+.classlinks-2 ul{
+  position: relative;
+  top: 5rem;
+}
+.classlinks-2 ul li{
+  margin: 1.5rem;
+  cursor: pointer;
+}
+#cut{
+  list-style: none;
+  color: red;
+  cursor: pointer;
+}
+.classlinks-2 ul li:hover{
+  text-decoration: underline;
+}
+.logo {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.logo span {
+  color: rgb(30, 148, 168);
+  cursor: pointer;
+}
+
+.info {
+  height: 100vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: rgb(199, 194, 194);
+  border-radius: 5px;
+  opacity: 0.8;
+  width: 49vw;
+}
+
+.heading button {
+  margin: 1rem 0;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.heading button:hover {
+  border-radius: 10px;
+  background-color: rgb(30, 148, 168);
+  color: white;
+}
+
+/*Styling sign and login forms   */
+#signform label,
+#loginform label {
+  display: block;
+}
+
+#signform,
+#loginform {
+  padding: 0 1rem;
+  background-color: rgb(199, 194, 194);
+  opacity: 0.8;
+  position: absolute;
+  margin: 5rem 0;
+  right: 0;
+}
+
+#signform input,
+#loginform input {
+  margin: 6px 0;
+  padding: 0 0.4rem;
+  height: 5vh;
+  width: 16vw;
+  border-radius: 6px;
+}
+
+#signform .signing,
+#loginform .loging {
+  margin: 1rem 0;
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#signform h3,
+#loginform h3 {
+  text-align: center;
+}
+
+.signing:hover,
+.loging:hover {
+  color: white;
+  background-color: rgb(30, 148, 168);
+}
+
+.remove,
+.remove2 {
+  display: none;
+}
+
+.show,
+.show2 {
+  display: block;
+}
+
+/* Here whole header is completed */
+
+#jobs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(199, 194, 194);
+  height: 10vh;
+}
+
+/* Styling All Opportunities you can avail */
+#opportunities {
+  width: 90vw;
+}
+
+#opportunities img {
+  height: 22vh;
+  width: 20vw;
+}
+
+#opportunities h3 {
+  margin: 15px 0;
+}
+
+#opportunities .intern {
+  border: 2px solid black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  height: 30vh;
+  width: 23%;
+  border-radius: 10px;
+  transition-timing-function: ease-in-out;
+  transition: 0.8s;
+  overflow: hidden;
+  margin: 1rem;
+  background-color: rgb(199, 194, 194);
+}
+
+#opportunities h2 {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+#opportunities span {
+  color: rgb(30, 148, 168);
+}
+
+/* You can get the link where you want to go */
+#options {
+  margin: 3rem 1rem;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#options select {
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 0.5rem 0.9rem;
+}
+
+#int,
+#cs {
+  margin: 6px 0;
+  display: none;
+}
+
+/* Styling Internships programs */
+#Internship h2 {
+  margin: 2rem 0;
+}
+
+#Internship span {
+  color: rgb(30, 148, 168);
+}
+
+#Internship {
+  margin: 1rem;
+  text-align: center;
+}
+
+#Internship .work {
+  margin: 1rem 0;
+}
+
+.work {
+  padding: 1rem 1.2rem;
+  width: 22vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(199, 194, 194);
+  border-radius: 20px;
+  overflow: hidden;
+  gap: 15px;
+  box-shadow: 0 0 8px black;
+}
+
+.work h3 {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.work p {
+  margin: 1rem 0;
+}
+
+.work img {
+  height: 20vh;
+  width: 15vw;
+}
+
+.data {
+  text-align: start;
+}
+
+.hiring {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hired,
+.hiredagain {
+  display: none;
+}
+
+.show-courses {
+  display: flex;
+}
+
+.loading {
+  display: block;
+}
+
+#load {
+  padding: 0.5rem 0.6rem;
+  cursor: pointer;
+}
+
+.more {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 4px 15px;
+
+}
+
+.less {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 4px 15px;
+}
+
+/* Internships are completed */
+
+/* Facilities we can provide you with */
+#facilities {
+  height: 100%;
+  background-color: rgb(199, 194, 194);
+  margin: 5rem 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: inset;
+  list-style-position: inside;
+  gap: 20px;
+}
+
+.box1 h3,
+li {
+  margin: 15px;
+}
+
+.box2 h3,
+li {
+  margin: 9px;
+}
+/* Education-cycle Styling */
+
+#cycle img {
+  height: 55vh;
+  padding: 1.2rem 0;
+}
+
+#cycle h2 {
+  margin: 1rem;
+  text-transform: capitalize;
+}
+
+#cycle {
+  margin: 5rem 0;
+  height: 65vh;
+  background: url('https://media.istockphoto.com/id/183803298/photo/brushed-metal-texture.jpg?s=612x612&w=0&k=20&c=XRGU6gMfMTMZVjpNC9etBPdyy988Snk6rXJHQ0IWjfA=');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#study {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling Courses We Can Provide you With */
+
+#courses h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#courses {
+  margin: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#courses img {
+  height: 100%;
+  width: 22vw;
+  margin: 0 10px;
+}
+
+#courses span {
+  color: rgb(30, 148, 168);
+}
+
+.offer {
+  padding: 20px 25px;
+  border-radius: 25px;
+  width: 20vw;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.offer h3,
+p {
+  padding: 13px 0;
+}
+
+.work2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#go {
+  text-align: center;
+  width: 17%;
+  margin: auto;
+  padding: 0.5rem 0.6rem;
+  cursor: pointer;
+}
+
+.core {
+  display: none;
+}
+
+.offer {
+  cursor: pointer;
+  background-color: rgb(199, 194, 194);
+  margin: 1rem 0;
+}
+
+/* Courses Styling is completed */
+
+/* Styling Our Team */
+#team h1 {
+  text-align: center;
+}
+
+#team p {
+  text-align: start;
+}
+
+#team {
+  margin: 3rem 1rem;
+}
+
+.team1,
+.team2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.image img {
+  height: 20vh;
+  width: 10vw;
+  border-radius: 80px;
+}
+
+.contact i {
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 15px 10px;
+}
+
+#team span {
+  color: rgb(30, 148, 168);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.professor {
+  background-color: rgb(199, 194, 194);
+  padding: 10px 20px;
+  display: flex;
+  width: 30vw;
+  justify-content: center;
+  margin: 1rem;
+  align-items: center;
+  gap: 1.2rem;
+  box-shadow: 0 0 5px black;
+  border-radius: 10px;
+  /* border: 2px solid black; */
+}
+
+/* What'sapp Sop's */
+
+#SOPS {
+  margin: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#SOPS h1 {
+  margin: 2rem 0;
+}
+
+#SOPS ul {
+  list-style: none;
+}
+
+#SOPS span {
+  color: rgb(30, 148, 168);
+}
+
+#SOPS li::before {
+  content: '✓';
+  padding: 0 10px;
+  font-weight: bold;
+  color: rgb(30, 148, 168);
+  font-size: 18px;
+}
+/* What'sapp Sop's  Styling Completed*/
+
+/* Styling For job/Career */
+
+#career {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#career h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+#career-btn {
+  margin: 1rem 0;
+  padding: 10px 20px;
+  background-color: rgb(30, 148, 168);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#career-btn:hover {
+  font-weight: bold;
+}
+
+#joining-form label,
+input {
+  margin: 3px 5px;
+  display: block;
+}
+
+#joining-form button {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  padding: 0.5rem 0.6rem;
+  cursor: pointer;
+  margin: 1rem 7rem;
+}
+
+#joining-form {
+  box-shadow: 0 0 5px black;
+  width: 30%;
+  line-height: 2.1rem;
+}
+
+#joining-form .input {
+  width: 20vw;
+  height: 5vh;
+  border-radius: 5px;
+}
+
+.choose-one {
+  display: flex;
+}
+/* Styling For job/Career completed*/
+
+/* Styling quotations For Students */
+
+#quotes {
+  margin: 3rem 0;
+  height: 50vh;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#quotes #line,
+#author {
+  margin: 1rem 0;
+}
+
+#more-quotes {
+  cursor: pointer;
+  padding: 6px 20px;
+}
+
+/* Styling Frequently Asked Questions */
+
+#faq {
+  margin: 0 5rem;
+
+}
+
+#joining-form button:hover, #load:hover, #go:hover{
+  background-color: rgb(30, 148, 168);
+  color: white;
+  border-radius: 5px;
+}
+
+#faq h2 {
+  margin: 4rem 0 1rem 0;
+  text-align: center;
+}
+
+#faq .question {
+  font-weight: bold;
+  font-size: 20px;
+  height: 100%;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 1.2rem 0;
+  background-color: rgb(199, 194, 194);
+}
+
+#faq .answer {
+  line-height: 1.5rem;
+  transition: 0.6s;
+  transition-timing-function: ease-in;
+  display: none;
+}
+
+#faq span {
+  color: rgb(30, 148, 168);
+}
+
+.showAnswer {
+  display: block;
+  line-height: 1.5rem;
+  transition: 0.6s;
+  transition-timing-function: ease-in;
+}
+/* Styling Frequently Asked Questions Completed */
+
+/* Styling Footer */
+footer {
+  margin: 3rem 0 0 0;
+  text-align: center;
+  height: 100vh;
+  background-color: rgb(199, 194, 194);
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+footer span {
+  color: rgb(30, 148, 168);
+}
+
+footer h1 {
+  padding: 3rem 0 1rem 0;
+}
+
+#partner-universities {
+  display: flex;
+  gap: 2rem;
+  margin: 0 20px;
+  flex-wrap: wrap;
+}
+
+#partner-universities img {
+  height: 15vh;
+  width: 6vw;
+}
+
+#tech {
+  width: 40vw;
+  text-align: start;
+  padding: 10px 25px;
+}
+
+#useful-links {
+  padding: 10px 25px;
+  width: 30vw;
+  line-height: 2rem;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+#sign {
+  width: 20vw;
+  text-align: start;
+}
+
+#sign img {
+  height: 30vh;
+  width: 20vw;
+}
+
+.footer-end {
+  margin: 2rem 0 0 0;
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem 0;
+  color: white;
+  background-color: rgb(107, 84, 84);
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.end{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+
+footer a:hover {
+  color: rgb(30, 148, 168);
+  text-decoration: underline;
+}
+
+/* Styling Footer Completed*/

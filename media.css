@@ -1,0 +1,746 @@
+@media screen and (max-width:1200px) {
+    #partner-universities img {
+        height: 10vh;
+    }
+
+    #opportunities img {
+        height: 10vh;
+        width: 14vw;
+    }
+    #tech li,h1,p,h3{
+        line-height: 1.9rem;
+    }
+}
+
+@media screen and (max-width:960px) {
+    #navbar {
+        height: 8vh;
+    }
+
+    #signform,
+    #loginform {
+        margin: 6rem 1rem;
+        width: 27%;
+    }
+
+    #signform input,
+    #loginform input {
+        width: 90%;
+    }
+
+    .info {
+        width: 60%;
+    }
+
+    #opportunities {
+        width: 90vw;
+        display: block;
+    }
+
+    #opportunities img {
+        padding: 0 1rem;
+        height: 11vh;
+    }
+
+    #opportunities p {
+        font-size: 14px;
+    }
+
+    #opportunities .intern {
+        width: 100%;
+        transition: none;
+        display: flex;
+        gap: 2px;
+        flex-direction: row;
+        overflow: scroll;
+        height: 100%;
+    }
+
+    .hiring {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .work img {
+        height: 13vh;
+        cursor: pointer;
+    }
+
+    .hired,
+    .hiredagain {
+        display: none;
+    }
+
+    .show-courses {
+        display: flex;
+    }
+
+    .work {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .more,
+    .less {
+        display: none;
+    }
+
+    .hiring .work {
+        width: 100%;
+        height: 100%;
+    }
+
+    #courses hr {
+        margin: 1rem 0;
+    }
+
+    #courses .offer {
+        width: 90%;
+        margin: 1rem;
+    }
+
+    #courses .offer p {
+        font-size: 15px;
+    }
+
+    #cycle {
+        height: 38vh;
+    }
+
+    #study img {
+        height: 28vh;
+    }
+
+    #team .professor {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #team img {
+        height: 10vh;
+    }
+
+    #team p {
+        font-size: 15px;
+    }
+
+    #Whatsapp {
+        display: none;
+    }
+
+    #career {
+        padding: 0 2rem;
+    }
+
+    #joining-form {
+        width: 50vw;
+    }
+
+    #joining-form .input {
+        padding: 10px;
+        width: 36vw;
+        height: 4vh;
+    }
+
+    #joining-form form {
+        width: 100%;
+    }
+
+    #quotes {
+        height: 32vh;
+    }
+
+    #faq .question {
+        font-size: 1rem;
+        height: 100%;
+        padding: 1.2rem;
+    }
+
+    .answer,
+    .showAnswer {
+        font-size: 14px;
+    }
+
+
+    footer a {
+        font-size: 1rem;
+    }
+
+    #tech h1 {
+        padding: 0rem;
+    }
+
+    .offer h3,
+    p {
+        padding: 0px 0;
+    }
+    #tech li,h1,p,h3{
+        line-height: 1.9rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+    #tech {
+        width: 100%;
+        text-align: start;
+    }
+
+    #useful-links {
+        width: 100%;
+        text-align: start;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #tech h1 {
+        padding: 0rem;
+        font-size: 17px;
+    }
+
+    #tech li,h1,p,h3{
+        line-height: 1.9rem;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    #class-links a {
+        font-size: 13px;
+    }
+    .classlinks-2{
+        width: 25%;
+    }
+    #signform,
+    #loginform {
+        z-index: 2;
+        margin: 6rem 0rem;
+        width: 32%;
+    }
+
+    #signform input,
+    #loginform input {
+        width: 95%;
+        height: 4vh;
+    }
+
+
+    .info {
+        height: 93vh;
+        width: 80%;
+    }
+
+    .intern {
+        overflow: scroll;
+    }
+
+    #opportunities img {
+        padding: 0 1rem;
+        height: 14vh;
+    }
+
+    #facilities {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #courses .work2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    #courses .core {
+        display: none;
+        margin: 1rem;
+    }
+
+    #courses .offer {
+        width: 100%;
+    }
+
+    #cycle {
+        height: 40vh;
+    }
+
+    #study img {
+        height: 32vh;
+    }
+
+    #quotes {
+        height: 34vh;
+        padding: 1.4rem 1rem;
+    }
+
+    #tech h1 {
+        padding: 0rem;
+    }
+
+    .offer h3,
+    p {
+        padding: 0px 0;
+    }
+
+    .footer-end {
+        gap: 24px;
+    }
+
+    #courses .offer hr {
+        margin: 1rem 0;
+    }
+
+    .contact {
+        margin: 1rem 0;
+    }
+
+    #tech {
+        width: 100%;
+        text-align: start;
+    }
+
+    #useful-links {
+        width: 100%;
+        text-align: start;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #tech h1 {
+        padding: 0rem;
+        font-size: 17px;
+    }
+
+    #tech li,h1,p,h3{
+        line-height: 1.9rem;
+    }
+
+}
+
+@media screen and (max-width:540px) {
+
+    #signform,
+    #loginform {
+        z-index: 2;
+        margin: 4rem 0rem;
+        width: 42%;
+    }
+
+    #signform input,
+    #loginform input {
+        width: 95%;
+        height: 4vh;
+    }
+
+    .info {
+        height: 100vh;
+    }
+
+    #class-links {
+        display: flex;
+        gap: 6px;
+    }
+
+    #navbar {
+        height: 8vh;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    #class-links ul li {
+        padding: 0;
+    }
+
+    .sign,
+    .login {
+        padding: 0.3rem 0.5rem;
+        border: none;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    #jobs {
+        height: 6vh;
+    }
+
+    #opportunities .intern {
+        width: 100%;
+        transition: none;
+        display: flex;
+        gap: 2px;
+        flex-direction: column;
+        overflow: scroll;
+        height: 100%;
+    }
+
+    #opportunities h2 {
+        margin: 2rem 0rem;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #opportunities img {
+        display: none;
+    }
+
+    .work p {
+        font-size: 13px;
+    }
+
+    .work img {
+        height: 10vh;
+    }
+
+    #team p {
+        font-size: 12px;
+    }
+
+    #team span {
+        font-size: 17px;
+    }
+
+    #team img {
+        height: 6vh;
+    }
+
+    #SOPS li {
+
+        font-size: 12px;
+        text-align: start;
+    }
+
+    #joining-form .input {
+        width: 42vw;
+        height: 3.3vh;
+    }
+
+    #joining-form {
+        width: 67vw;
+    }
+
+    #faq .question {
+        height: 100%;
+        padding: 1rem 1rem;
+    }
+
+    #partner-universities img {
+        height: 6vh;
+        width: 6vw;
+    }
+
+    #opportunities p {
+        padding: 0 1.4rem;
+    }
+
+    #useful-links {
+        margin: 2rem 0;
+    }
+
+    #partner-universities img {
+        height: 3vh;
+        width: 4vw;
+    }
+
+    #tech {
+        padding: 0 1rem;
+        width: 100%;
+    }
+
+    #sign img {
+        height: 10vh;
+        width: 14vw;
+    }
+
+    #sign {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-end {
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #useful-links {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #partner-universities img {
+        height: 3vh;
+        width: 4vw;
+    }
+
+    #tech {
+        padding: 0 1rem;
+        width: 100%;
+    }
+
+    #sign img {
+        height: 19vh;
+        width: 38vw;
+    }
+
+    #sign {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    #signform,
+    #loginform {
+        z-index: 2;
+        margin: 4rem 0rem;
+        width: 50%;
+    }
+
+    #signform input,
+    #loginform input {
+        width: 95%;
+        height: 4vh;
+    }
+
+    #class-links ul li i {
+        padding: 7px;
+        color: white;
+    }
+
+    #navbar {
+        height: 8vh;
+    }
+
+    #class-links ul li {
+        padding: 0;
+    }
+
+    .register {
+        text-align: end;
+        display: flex;
+        gap: 4px;
+    }
+
+    #opportunities p {
+        padding: 0 1rem;
+    }
+
+    .heading {
+        width: 72vw;
+    }
+
+    .heading h1,
+    h2 {
+        font-size: 22px;
+    }
+
+    #jobs {
+        font-size: 12px;
+    }
+
+    #go {
+        width: 31%;
+    }
+
+    #jobs {
+        text-align: center;
+        padding: 0 1rem;
+        /* height: 10vh; */
+    }
+
+
+    .box2 h3,
+    li {
+        margin: 9px;
+    }
+
+    .team1,
+    .team2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #team .professor {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offer h3,
+    p {
+        font-size: 13px;
+    }
+
+    #joining-form {
+        width: 72vw;
+    }
+
+    #joining-form .input {
+        width: 90%;
+    }
+
+    #faq {
+        margin: 0 2rem;
+    }
+
+    #partner-universities img {
+        height: 4vh;
+        width: 5vw;
+    }
+
+    #quotes {
+        height: 21vh;
+        padding: 1.4rem 1rem;
+    }
+
+    #tech h1 {
+        font-size: 23px;
+    }
+
+    footer h1 {
+        font-size: 23px;
+        padding: 2rem 0 0 0;
+    }
+
+    .footer-end {
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #useful-links {
+        width: 100%;
+        height: 100%;
+        line-height: 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #partner-universities img {
+        height: 3vh;
+        width: 4vw;
+    }
+
+    #tech {
+        padding: 0 1rem;
+        width: 100%;
+    }
+
+    #sign img {
+        height: 19vh;
+        width: 38vw;
+    }
+
+    #sign {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .footer-end {
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #useful-links {
+        width: 100%;
+        height: 100%;
+        line-height: 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .classlinks-2 {
+        width: 30%;
+    }
+    footer {
+        background-size: cover;
+    }
+
+    #partner-universities img {
+        height: 3vh;
+        width: 4vw;
+    }
+
+    #tech {
+        padding: 0 1rem;
+        width: 100%;
+    }
+
+    #sign img {
+        height: 19vh;
+        width: 38vw;
+    }
+
+    #sign {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:380px) {
+    #class-links ul li i {
+        padding: 7px;
+        color: white;
+    }
+
+    #navbar {
+        height: 10vh;
+    }
+
+    .heading h1,
+    h2 {
+        font-size: 17px;
+    }
+
+    #jobs {
+        font-size: 10px;
+    }
+
+    #quotes {
+        height: 29vh;
+    }
+
+    #opportunities h2 {
+        font-size: 15px;
+    }
+
+    #facilities li {
+        font-size: 13px;
+    }
+
+    #Internship .work {
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #career h1 {
+        font-size: 1.4rem;
+    }
+
+    .showAnswer,
+    .answer {
+        font-size: 13px;
+        line-height: 1.2rem;
+    }
+
+    .footer-end a {
+        font-size: 13px;
+    }
+}

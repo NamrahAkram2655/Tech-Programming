@@ -1,0 +1,168 @@
+/* Styling Header */
+
+header {
+    background: url('../img/workspace-1280538__340.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.info {
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h1 {
+    font-size: 3rem;
+}
+
+/* Styling Header Completed */
+
+/* Styling Our Centers */
+#centers {
+    display: flex;
+    margin: 3rem 1rem;
+}
+
+#centers h1 {
+    display: block;
+    font-size: 2rem;
+}
+
+#centers .items li {
+    list-style: none;
+    margin: 7px 0;
+    padding: 0;
+}
+
+.items strong {
+    background-color: rgb(30, 148, 168);
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+}
+
+.items {
+    margin: 0 10px;
+}
+
+.map img {
+    height: 80vh;
+    width: 40vw;
+}
+/* Styling Our Centers Completed*/
+
+/* Styling About */
+
+#about {
+    background: url('https://nftp.pitb.gov.pk/sites/nftp.pitb.gov.pk/themes/bootstrap/images/main-demo-parallax.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.2rem;
+}
+
+/* Styling About Completed*/
+
+/* Styling Who We Are Know us more */
+
+#know-us {
+    padding: 10px 20px;
+    background-color: rgb(13, 97, 112);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#know-us:hover {
+    font-weight: bold;
+
+}
+
+#Know-us-more {
+    line-height: 2rem;
+    margin: 2.3rem 1rem;
+    padding: 0 1rem;
+}
+
+span {
+    color: rgb(30, 148, 168);
+}
+
+#Know-us-more h1 {
+    text-align: center;
+}
+
+/* Styling Who We Are Know us more Completed */
+
+/* Styling Tools which are used */
+
+#tools h1 {
+    font-size: 2.3rem;
+    padding: 2rem 0;
+}
+
+#tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 1rem;
+}
+
+#tools img {
+    height: 50vh;
+}
+
+/* Styling Tools which are used Completed */
+
+/* Styling How Students get SElected and enrolled */
+
+#merit {
+    background-color: rgb(162, 182, 185);
+    margin: 3rem 0rem;
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#merit h2 {
+    padding: 1.2rem 0;
+}
+
+#merit img {
+    height: 50vh;
+}
+
+/* Styling How Students get SElected and enrolled */
+
+/* Styling Terms and conditions */
+
+#privacy h2 {
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+#privacy {
+    margin: 2rem 3rem;
+    line-height: 1.6rem;
+    padding: 1rem 3rem;
+}
+
+/* Styling Terms and conditions Completed */
+
+/* Footer came from main page */
